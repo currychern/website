@@ -1,0 +1,27 @@
+{{> header }}
+<div class="wrapper">
+  <header>
+    <div class="back">
+      <a class="back-to-blog" href="/blog"><i class="fa fa-arrow-left"></i> Blog</a>
+    </div>
+  </header>
+  <article>
+    <div class="meta">
+      <h1>{{ title }}</h1>
+      {{#if updated}}
+        <span>Updated: {{ moment updated 'MMMM DD, YYYY' }}</span><br/>
+      {{/if}}
+      <span>{{ moment date 'MMMM DD, YYYY' }} – {{ site.author }}</span>
+      {{#if tags}}
+        <br/><span><i class="fa fa-tags"></i>
+          {{#each tags}}
+            <a href="/topics/{{name}}">#{{ name }}</a>
+          {{/each}}
+        </span>
+      {{/if}}
+      <p>{{ blurb }}</p>
+    </div>
+    {{{ contents }}}
+  </article>
+</div>
+{{> footer }}

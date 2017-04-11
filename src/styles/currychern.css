@@ -1,0 +1,139 @@
+#header {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  color: #666;
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+  text-align: center;
+}
+
+footer > a, .rss > a {
+  color: #444;
+}
+
+@media screen and (min-width: 680px ) {
+  main {
+    display: flex;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  .col1 {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .col2 {
+    margin-left: 5%;
+    margin-right: 10%
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .col1 {
+    margin-left: 15%;
+  }
+
+  .col2 {
+    margin-right: 15%
+  }
+}
+
+.page * h2 {
+  font-size: 20px;
+  border-bottom: 1px dashed #666;
+}
+
+p {
+  color: #888;
+}
+
+.wrapper {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0px 7% 0px 7%;
+}
+
+.back {
+  padding-top: 100px;
+}
+
+.back-to-blog {
+  color: #DB3236;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.post-list {
+  list-style-type: none;
+}
+
+.post-list > li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.topic > h1 {
+  font-size: 48px;
+}
+
+.hashtag {
+  color: #DB3236;
+}
+
+.post-list * .date {
+  font-size: 16px;
+}
+
+.post-list * .title * {
+  color: #333;
+  font-size: 24px;
+}
+
+/* Article Elements */
+article * {
+  color: #333;
+}
+
+article > .meta > h1 {
+  font-size: 48px;
+}
+
+article > .meta > span,
+article > .meta > span * {
+  color: #888;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+article > .meta > p {
+  font-weight: bold;
+}
+
+article p {
+	text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+	margin-bottom: 1.5em;
+	font-kerning: auto;
+}
+
+article > blockquote *, article > ol * {
+  color: #666;
+}

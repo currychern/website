@@ -1,0 +1,16 @@
+{{> header logo=true}}
+<div class="wrapper">
+  <main>
+    <section>
+      <ul class="recent post-list">
+      {{#each posts}}
+        <li>
+          <div class="date">{{ moment date 'MMMM DD, YYYY' }} – {{type}}</div>
+          <div class="title"><a href="../{{ path }}">{{ title }}</a></div>
+        </li>
+      {{/each}}
+      </ul>
+    </section>
+  </main>
+</div>
+{{> footer rss=true}}

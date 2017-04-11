@@ -1,0 +1,30 @@
+{{> header }}
+<div class="wrapper">
+  <header>
+    <div class="back">
+      <a class="back-to-blog" href="/blog"><i class="fa fa-arrow-left"></i> Blog</a>
+    </div>
+  </header>
+  <main>
+    <section class="topic">
+      <h1>#<span class="hashtag">{{tag}}</span></h1>
+      <ul class="post-list">
+        {{#each pagination.files}}
+          <li>
+            <div class="date">{{ moment date 'MMMM DD, YYYY' }} – {{type}}</div>
+            <div class="title"><a href="../../{{ path }}">{{ title }}</a></div>
+          </li>
+        {{/each}}
+      </ul>
+
+      {{#if pagination.previous}}
+        <a href="{{pagination.previous.path}}">Previous</a>
+      {{/if}}
+
+      {{#if pagination.next}}
+        <a href="{{pagination.next.path}}">Next</a>
+      {{/if}}
+    </section>
+  </main>
+</div>
+{{> footer }}
