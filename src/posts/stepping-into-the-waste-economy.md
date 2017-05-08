@@ -13,7 +13,7 @@ Last month, I was working on a startup idea with Edward Sullivan and Dylan Haas.
 
 Here's a brief user story sheet that I made describing what we aimed to accomplish:
 
-![user stories](https://raw.githubusercontent.com/currychern/website/master/src/img/userstories.png)
+<img src="https://raw.githubusercontent.com/currychern/website/master/src/img/userstories.png" width="100%" height="100%" />
 
 ### The Problem
 
