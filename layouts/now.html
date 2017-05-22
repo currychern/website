@@ -1,0 +1,10 @@
+{{> header logo=true}}
+<div class="wrapper">
+  <article>
+    <div class="meta">
+      <h1>What I'm Up To Now</h1>
+      <span>{{ moment date 'MMMM DD, YYYY' }} – {{ site.author }}</span>
+    </div>
+    {{{ contents }}}
+</div>
+{{> footer }}
