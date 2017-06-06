@@ -1,5 +1,6 @@
 ---
 layout: now.html
+date: 05-22-2017
 ---
 I’m living in Austin, TX, but open to moving elsewhere for the right career opportunities. That being said, Austin is awesome and so are all the friends I've met here.
 

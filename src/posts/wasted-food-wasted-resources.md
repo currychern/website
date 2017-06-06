@@ -37,4 +37,4 @@ Here's a brief view of the mockup for our app as of today. I would appreciate an
 
 <img src="https://raw.githubusercontent.com/currychern/bounti/master/public/assets/app_mockup.png" width="100%" height="100%" />
 
-To find out more and to keep updated about this project. Follow our us on [github](https://github.com/currychern/bounti)!
+To find out more and to keep updated about this project, follow us on [github](https://github.com/currychern/bounti)!
