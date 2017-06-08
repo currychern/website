@@ -3,7 +3,7 @@ title: 100 Days. Lots of Code.
 date: 06-07-2017
 updated:
 blurb: What can I learn in 100 days?
-type: intro
+type: log
 draft: false
 keywords:
 tags: learn, code, machine learning
