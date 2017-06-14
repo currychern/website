@@ -1,7 +1,7 @@
 ---
 title: 100 Days. Lots of Code.
 date: 06-07-2017
-updated:
+updated: 06-13-2017
 blurb: What can I learn in 100 days?
 type: log
 draft: false
@@ -27,7 +27,15 @@ By working on real world projects, that need to be robust, I will hopefully deve
 
 ### Log
 
-#### Day 1: Wednesday, June 7, 2017.
+#### Day 1: Tuesday, June 13, 2017.
+
+__Today's Progress__: Looked into Redux and React Native Forms, but decided to use neither for the time being. I was finally able to write data to Firebase!
+
+__Thoughts:__ Fell off the bandwagon, so this is now Day 1 again. I decided that avoiding dependencies is the name of the game. There's no reason to introduce more dependencies than we need. Also, break tasks down and focus on small manageable wins.
+
+__Link to work:__ [Bounti](https://github.com/currychern/bounti/commit/06c8cba73c5fc6150b0038234a2f0d216c156786)
+
+#### Day 0: Wednesday, June 7, 2017.
 
 __Today's Progress__: Fixed listing and item pages to better reflect the initial mockup. Cleaned up the code a bit as well.
 
